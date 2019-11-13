@@ -1,0 +1,27 @@
+{% extends 'bootstrap/base.html' %}
+{% block title %}
+  Artist Results
+{% endblock %}
+​
+{% block content %}
+​
+<!-- templates/al.html -->
+​
+<div class="container">
+  <h1>Artists!</h1>
+​
+  <ul class="list-group">
+​
+    {% for item in artistlist %}
+​
+      <li class="list-group-item">{{ item.artistname }}</li>
+​
+    {% endfor %}
+​
+  </ul>
+​
+  <a href="{{ url_for('index') }}">Go back to title</a>
+​
+</div>
+​
+{% endblock %}

@@ -1,0 +1,31 @@
+{% extends 'bootstrap/base.html' %}
+{% block title %}
+  Artistlist
+{% endblock %}
+​
+{% block content %}
+​
+<!-- templates/index.html -->
+​
+<div class="container">
+​
+  <h1>Add our Artist!</h1>
+​
+  <div class="well">
+​
+  <form action="" method="post">
+    {{ form.csrf_token }}
+    {{ form.hidden_tag() }}
+    <p>
+        {{ form.artist_name.label }} <br> {{ form.artist_name(size=32) }}
+    </p>
+​
+    <p>{{ form.submit() }}</p>
+​
+  </form>
+​
+</div>
+​
+</div>
+​
+{% endblock %}

@@ -1,0 +1,62 @@
+** Task 1 **
+
+Line number: 531
+
+
+
+** Task 2 **
+
+Image class docstring:
+ 
+    """
+    This class represents an image object.  To create
+    :py:class:`~PIL.Image.Image` objects, use the appropriate factory
+    functions.  There's hardly ever any reason to call the Image constructor
+    directly.
+    * :py:func:`~PIL.Image.open`
+    * :py:func:`~PIL.Image.new`
+    * :py:func:`~PIL.Image.frombytes`
+    """
+
+
+
+** Task 3 **
+
+Image object attribute: 'transpose'
+
+Description: 'Image.transpose(method)' makes a rotated or flipped copy of the image. To create a transposed copy, pick one of the below methods and put it in a blank here: 'im_flipped = im.transpose(method_Image._____).
+
+FLIP_LEFT_RIGHT
+FLIP_TOP_BOTTOM
+ROTATE_90
+ROTATE_180
+ROTATE_270
+TRANSPOSE
+TRANSVERSE
+
+
+
+
+
+** Task 4 **
+
+Python Song class definition:
+
+class Song:
+	def __init__(self, name, artist, genre, length, album):
+		self.name = name
+		self.artist = artist
+		self.genre = genre
+		self.length = length 
+		self.album = album
+
+mysong = Song("Imagine", "Avril Lavigne", "pop", "187sec", "Instant Karma")
+print(mysong.name)
+print(mysong.artist)
+print(mysong.genre)
+print(mysong.length)
+print(mysong.album)
+
+
+Instances of the Song class:
+mysong = Song("Imagine", "Avril Lavigne", "pop", "187sec", "Instant Karma")

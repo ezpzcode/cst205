@@ -1,0 +1,114 @@
+<html>
+<head>
+<style>
+    a {
+     text-decoration: none;
+    }
+ </style>
+</head>
+<body>
+<title>Homework4</title>
+<font size="+5"><b>Pictures</b></font>
+<body>
+<br></br>
+{% if image_file1=='34694102243_3370955cf9_z.jpg' %} 
+	<font size="+1"><a href="{{ url_for('eastern') }}">Eastern</a></font>
+{% endif %}
+{% if image_file1=='34944112220_de5c2684e7_z.jpg' %} 
+	<font size="+1"><a href="{{ url_for('view') }}">View from our rental</a></font>
+{% endif %}
+{% if image_file1=='35889114281_85553fed76_z.jpg' %} 
+	<font size="+1"><a href="{{ url_for('quiet') }}">Quiet at dawn, Cabo San Lucas</a></font>
+{% endif %}
+{% if image_file1=='36140096743_df8ef41874_z.jpg' %} 
+	<font size="+1"><a href="{{ url_for('someday') }}">Someday</a></font>
+{% endif %}
+{% if image_file1=='36523127054_763afc5ed0_z.jpg' %} 
+	<font size="+1"><a href="{{ url_for('canoeing') }}">Canoeing in Amsterdam</a></font>
+{% endif %}
+{% if image_file1=='36604481574_c9f5817172_z.jpg' %} 
+	<font size="+1"><a href="{{ url_for('lombardia') }}">Lombardia, september</a></font>
+{% endif %}
+{% if image_file1=='36885467710_124f3d1e5d_z.jpg' %} 
+	<font size="+1"><a href="{{ url_for('palazzo') }}">Palazzo Madama</a></font>
+{% endif %}
+{% if image_file1=='36909037971_884bd535b1_z.jpg' %} 
+	<font size="+1"><a href="{{ url_for('EastSide') }}">East Side Gallery</a></font>
+{% endif %}
+{% if image_file1=='37198655640_b64940bd52_z.jpg' %} 
+	<font size="+1"><a href="{{ url_for('spreetunnel') }}">Spreetunnel</a></font>
+{% endif %}
+{% if image_file1=='37246779151_f26641d17f_z.jpg' %} 
+	<font size="+1"><a href="{{ url_for('library') }}">Rijksmuseum library</a></font>
+{% endif %}
+<br></br>
+<img src="{{ url_for('static',filename=image_file1) }}" width="200" class="img-responsive img-rounded" alt="">
+<br></br>
+{% if image_file2=='34694102243_3370955cf9_z.jpg' %} 
+	<font size="+1"><a href="{{ url_for('eastern') }}">Eastern</a></font>
+{% endif %}
+{% if image_file2=='34944112220_de5c2684e7_z.jpg' %} 
+	<font size="+1"><a href="{{ url_for('view') }}">View from our rental</a></font>
+{% endif %}
+{% if image_file2=='35889114281_85553fed76_z.jpg' %} 
+	<font size="+1"><a href="{{ url_for('quiet') }}">Quiet at dawn, Cabo San Lucas</a></font>
+{% endif %}
+{% if image_file2=='36140096743_df8ef41874_z.jpg' %} 
+	<font size="+1"><a href="{{ url_for('someday') }}">Someday</a></font>
+{% endif %}
+{% if image_file2=='36523127054_763afc5ed0_z.jpg' %} 
+	<font size="+1"><a href="{{ url_for('canoeing') }}">Canoeing in Amsterdam</a></font>
+{% endif %}
+{% if image_file2=='36604481574_c9f5817172_z.jpg' %} 
+	<font size="+1"><a href="{{ url_for('lombardia') }}">Lombardia, september</a></font>
+{% endif %}
+{% if image_file2=='36885467710_124f3d1e5d_z.jpg' %} 
+	<font size="+1"><a href="{{ url_for('palazzo') }}">Palazzo Madama</a></font>
+{% endif %}
+{% if image_file2=='36909037971_884bd535b1_z.jpg' %} 
+	<font size="+1"><a href="{{ url_for('EastSide') }}">East Side Gallery</a></font>
+{% endif %}
+{% if image_file2=='37198655640_b64940bd52_z.jpg' %} 
+	<font size="+1"><a href="{{ url_for('spreetunnel') }}">Spreetunnel</a></font>
+{% endif %}
+{% if image_file2=='37246779151_f26641d17f_z.jpg' %} 
+	<font size="+1"><a href="{{ url_for('library') }}">Rijksmuseum library</a></font>
+{% endif %}
+<br></br>
+<img src="{{ url_for('static',filename=image_file2) }}" width="200" class="img-responsive img-rounded" alt="">
+<br></br>
+{% if image_file3=='34694102243_3370955cf9_z.jpg' %} 
+	<font size="+1"><a href="{{ url_for('eastern') }}">Eastern</a></font>
+{% endif %}
+{% if image_file3=='34944112220_de5c2684e7_z.jpg' %} 
+	<font size="+1"><a href="{{ url_for('view') }}">View from our rental</a></font>
+{% endif %}
+{% if image_file3=='35889114281_85553fed76_z.jpg' %} 
+	<font size="+1"><a href="{{ url_for('quiet') }}">Quiet at dawn, Cabo San Lucas</a></font>
+{% endif %}
+{% if image_file3=='36140096743_df8ef41874_z.jpg' %} 
+	<font size="+1"><a href="{{ url_for('someday') }}">Someday</a></font>
+{% endif %}
+{% if image_file3=='36523127054_763afc5ed0_z.jpg' %} 
+	<font size="+1"><a href="{{ url_for('canoeing') }}">Canoeing in Amsterdam</a></font>
+{% endif %}
+{% if image_file3=='36604481574_c9f5817172_z.jpg' %} 
+	<font size="+1"><a href="{{ url_for('lombardia') }}">Lombardia, september</a></font>
+{% endif %}
+{% if image_file3=='36885467710_124f3d1e5d_z.jpg' %} 
+	<font size="+1"><a href="{{ url_for('palazzo') }}">Palazzo Madama</a></font>
+{% endif %}
+{% if image_file3=='36909037971_884bd535b1_z.jpg' %} 
+	<font size="+1"><a href="{{ url_for('EastSide') }}">East Side Gallery</a></font>
+{% endif %}
+{% if image_file3=='37198655640_b64940bd52_z.jpg' %} 
+	<font size="+1"><a href="{{ url_for('spreetunnel') }}">Spreetunnel</a></font>
+{% endif %}
+{% if image_file3=='37246779151_f26641d17f_z.jpg' %} 
+	<font size="+1"><a href="{{ url_for('library') }}">Rijksmuseum library</a></font>
+{% endif %}
+<br></br>
+<img src="{{ url_for('static',filename=image_file3) }}" width="200" class="img-responsive img-rounded" alt="">
+<br></br>
+</body>
+</html>

@@ -1,0 +1,5 @@
+{% for item in my_data %}
+	{% if my_data[item][3] != "png" %}
+		{{ my_data[item][3] }}
+	{% endif %}
+{% endfor %}
